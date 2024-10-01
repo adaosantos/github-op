@@ -14,7 +14,8 @@
   "scripts": {
     "build": "tsc",
     "check": "biome check ./src",
-    "check:fix": "biome check --write ./src"
+    "check:fix": "biome check --write ./src",
+    "release": "pnpm run build && changeset publish"
   },
   "author": "Adão Santos<djadao@gmail.com>",
   "license": "MIT",
