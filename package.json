@@ -12,5 +12,9 @@
   },
   "keywords": [],
   "author": "Adão Santos<djadao@gmail.com>",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "@biomejs/biome": "^1.9.2",
+    "@total-typescript/tsconfig": "^1.0.4"
+  }
 }
