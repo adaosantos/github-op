@@ -8,9 +8,7 @@
   "description": "Typescript Github API wrapper",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
-  "files": [
-    "dist/**/*"
-  ],
+  "files": ["dist/**/*"],
   "scripts": {
     "build": "tsc",
     "check": "biome check ./src",
@@ -26,5 +24,10 @@
   },
   "bugs": {
     "url": "https://github.com/adaosantos/github-op/issues"
-  }
+  },
+  "engines": {
+    "node": "^20.17.0",
+    "pnpm": "^9.11.0"
+  },
+  "packageManager": "pnpm@9.11.0"
 }
