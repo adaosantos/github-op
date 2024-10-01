@@ -1,0 +1,16 @@
+{
+  "name": "github-op",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/adaosantos/github-op"
+  },
+  "version": "0.0.1",
+  "description": "Typescript Github API wrapper",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Adão Santos<djadao@gmail.com>",
+  "license": "ISC"
+}
